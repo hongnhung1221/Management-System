@@ -41,7 +41,7 @@ h3 {
 
 nav {
 	line-height: 10vh;
-	background-color: #1367c8;
+	background-color: #2d8b37;
 	
 }
 
@@ -54,7 +54,7 @@ nav h1 {
 nav ul{
     padding: 0;
     list-style: none;
-    background: #1367c8;
+    background: #2d8b37;
     display: inline-block;
     float: right;
     margin: 0 1vw 0 0;
