@@ -1,42 +1,41 @@
 h3 {
-	font-size: 22px;
+  font-size: 22px;
 }
 
 .content {
-	font-size: 18px;	
+  font-size: 18px;
 }
 
 .content span {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .content div {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 #completed {
-	font-weight: normal;
-	color: green;
+  font-weight: normal;
+  color: green;
 }
 
 #incomplete {
-	font-weight: normal;
-	color: #ff1616;
+  font-weight: normal;
+  color: #ff1616;
 }
 
 .button {
-	display: inline-block;
-	background-color: rgba(19, 103, 200, 1);
-	text-decoration: none;
-	width: 160px;
-	line-height: 35px;
-	color: black;
-    text-align: center;
-    border-radius: 5px;
-    margin-top:10px;
+  display: inline-block;
+  background-color: rgba(45, 139, 55, 1);
+  text-decoration: none;
+  width: 160px;
+  line-height: 35px;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 10px;
 }
 
 .button:hover {
-	background-color: rgba(19, 103, 200, 0.7);
+  background-color: rgba(45, 139, 55, 0.7);
 }
-
