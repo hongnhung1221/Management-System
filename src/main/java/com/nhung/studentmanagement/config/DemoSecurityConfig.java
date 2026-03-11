@@ -31,8 +31,8 @@ public class DemoSecurityConfig extends WebSecurityConfigurerAdapter {
 
         auth.authenticationProvider(studentAuthenticationProvider());
 
-
         auth.authenticationProvider(teacherAuthenticationProvider());
+
 
         auth.inMemoryAuthentication()
             .withUser("admin")
@@ -42,7 +42,7 @@ public class DemoSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.csrf().disable()
+        http.csrf().disable() 
             .authorizeRequests()
             .antMatchers("/css/**", "/js/**", "/images/**").permitAll() 
             .antMatchers("/").authenticated()
