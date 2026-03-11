@@ -47,6 +47,7 @@ nav {
 nav h1 {
   display: inline;
   color: #f7f8fa;
+  font-family: "Comic Neue", cursive;
 }
 
 nav ul {
